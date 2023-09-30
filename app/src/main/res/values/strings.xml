@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShelfperkTextReader</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="image">Image</string>
+    <string name="process_image">Process Image</string>
+    <string name="clear">Clear</string>
+    <string name="synonyms">Synonyms</string>
+    <string name="antonyms">Antonyms</string>
+    <string name="thesaurus">Thesaurus</string>
+    <string name="latest_news">Latest News</string>
+</resources>

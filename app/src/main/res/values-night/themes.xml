@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShelfperkTextReader" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+    <style name="Theme.ShelfperkTextReader" parent="Base.Theme.ShelfperkTextReader" />
+    <style name="textViewStyle" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:background">#222222</item>
+    </style>
+</resources>
